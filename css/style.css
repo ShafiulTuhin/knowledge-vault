@@ -173,3 +173,36 @@ nav ul li a {
   margin-bottom: 16px;
 }
 /* =====Footer section css===== */
+#footerPart {
+  padding-top: 120px;
+  background-color: #001931;
+}
+.footerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6b6d7146;
+  padding-bottom: 80px;
+}
+.social h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.social .socialIcons {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  margin-right: 16px;
+  text-align: center;
+}
+.footerBottom {
+  text-align: center;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+.footerBottom p {
+  color: #fafafa;
+}
