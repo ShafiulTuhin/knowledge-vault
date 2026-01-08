@@ -1,1 +1,17 @@
 @import url("./common.css");
+/* =====Navbar css===== */
+nav {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+  color: black;
+  font-weight: 500;
+}
+nav ul li a {
+  color: #000000;
+}

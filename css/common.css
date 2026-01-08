@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 ul,
 li,
@@ -20,7 +22,20 @@ span {
 img {
   vertical-align: middle;
 }
-
-h2 {
-  background-color: red;
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+button {
+  padding: 12.5px 16px;
+  border: none;
+  background-color: #469165;
+  font-weight: 600;
+  color: #ffffff;
+  transition: linear all 0.3s;
+}
+button:hover {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #469165;
 }
