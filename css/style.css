@@ -21,7 +21,7 @@ nav ul li a {
 /* =====Banner css===== */
 #bannerPart {
   padding: 115.5px 0 179.5px 0;
-  background-image: url("../images/hero-bg.png");
+  background-image: url("/images/hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
