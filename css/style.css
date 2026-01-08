@@ -15,3 +15,70 @@ nav ul {
 nav ul li a {
   color: #000000;
 }
+.navBtn:hover {
+  color: #000000;
+}
+/* =====Banner css===== */
+#bannerPart {
+  padding: 115.5px 0 179.5px 0;
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerDetails {
+  text-align: center;
+}
+.bannerAccess {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #469165;
+  width: 229px;
+  border-radius: 20px;
+  padding: 5px 0;
+  margin: 0 auto;
+  gap: 5px;
+}
+.accessText {
+  color: #469165;
+}
+.bannerDetails h2 {
+  font-size: 72px;
+  padding: 16px 0;
+  font-weight: 700;
+  color: #ffffff;
+}
+.bannerDetails .bannerHeading--modify {
+  color: #30b868;
+}
+.bannerDetails .bannerPara {
+  color: #ffffff;
+  width: 50%;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.btn--modify {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  margin-left: 15px;
+}
+.btn--modify:hover {
+  background-color: #469165;
+}
+/* =====Note Section css===== */
+#notePart {
+  padding: 60px 0 44px 0;
+  text-align: center;
+}
+.noteHeading h2 {
+  margin-bottom: 16px;
+  color: #001931;
+  font-weight: 700;
+  font-size: 48px;
+}
+.noteHeading p {
+  color: #627382;
+}
