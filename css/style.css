@@ -109,3 +109,40 @@ nav ul li a {
   font-size: 16px;
   line-height: 20px;
 }
+/* =====Second brain section css===== */
+#secondBrainPart {
+  padding: 120px 0;
+}
+.brainItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.brainRight h4 {
+  color: #469165;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.brainRight h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brainRight .brainRightPara {
+  color: #627382;
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+.brainInstruction {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
