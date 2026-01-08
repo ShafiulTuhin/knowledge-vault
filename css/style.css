@@ -21,7 +21,7 @@ nav ul li a {
 /* =====Banner css===== */
 #bannerPart {
   padding: 115.5px 0 179.5px 0;
-  background-image: url("/images/hero-bg.png");
+  background-image: url("../images/hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,4 +81,31 @@ nav ul li a {
 }
 .noteHeading p {
   color: #627382;
+}
+.myNotes {
+  display: flex;
+  justify-content: space-between;
+}
+.myNotes .notesItem {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 70px 24px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.notesItem img {
+  background-color: #f95555;
+  padding: 14px;
+  border-radius: 50%;
+}
+.notesItem h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.notesItem p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
 }
