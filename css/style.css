@@ -146,3 +146,30 @@ nav ul li a {
   line-height: 20px;
   font-weight: 500;
 }
+/* =====Think clearly section css===== */
+#clearPart {
+  padding-bottom: 120px;
+}
+.thinkMore {
+  background-color: #f7f6f2;
+  text-align: center;
+  padding: 80px 0;
+}
+.thinkMore h2 {
+  color: #001931;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.thinkMore p {
+  color: #627382;
+  font-size: 18px;
+  line-height: 20px;
+
+  width: 50%;
+  margin: 24px auto;
+}
+.thinBtn--modify {
+  margin-bottom: 16px;
+}
+/* =====Footer section css===== */
