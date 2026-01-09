@@ -26,6 +26,9 @@ img {
   width: 1360px;
   margin: 0 auto;
 }
+img {
+  cursor: pointer;
+}
 button {
   padding: 12.5px 16px;
   border: none;
@@ -33,6 +36,7 @@ button {
   font-weight: 600;
   color: #ffffff;
   transition: linear all 0.3s;
+  cursor: pointer;
 }
 button:hover {
   background-color: transparent;

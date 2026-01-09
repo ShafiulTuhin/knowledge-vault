@@ -15,6 +15,7 @@ nav ul {
 nav ul li a {
   color: #000000;
 }
+
 .navBtn:hover {
   color: #000000;
 }
@@ -197,6 +198,7 @@ nav ul li a {
   padding: 2px 5px;
   margin-right: 16px;
   text-align: center;
+  cursor: pointer;
 }
 .footerBottom {
   text-align: center;
