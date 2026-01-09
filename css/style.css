@@ -192,12 +192,13 @@ nav ul li a {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
 .social .socialIcons {
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 2px 5px;
+  padding: 4px 3px;
   margin-right: 16px;
-  text-align: center;
+
   cursor: pointer;
 }
 .footerBottom {
