@@ -63,6 +63,13 @@
     width: 90%;
     margin-bottom: 30px;
   }
+  .smallDevice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
   .myNotes {
     flex-wrap: wrap;
   }
